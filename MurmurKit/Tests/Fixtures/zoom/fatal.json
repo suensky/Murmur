@@ -1,0 +1,5 @@
+{
+  "on_connect": [{"type": "session.created", "session_id": "sess_4"}],
+  "on_audio": [{"type": "error", "error": {"code": "internal_error", "message": "boom", "fatal": true}}],
+  "on_close": []
+}

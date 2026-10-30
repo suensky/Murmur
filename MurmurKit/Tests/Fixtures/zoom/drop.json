@@ -1,0 +1,5 @@
+{
+  "on_connect": [{"type": "session.created", "session_id": "sess_5"}],
+  "on_audio": [{"type": "transcription.delta", "item_id": "item_1", "delta": "Half a"}],
+  "drop_after_audio": true
+}

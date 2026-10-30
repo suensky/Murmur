@@ -1,0 +1,11 @@
+{
+  "on_connect": [{"type": "session.created", "session_id": "sess_2"}],
+  "on_audio": [
+    {"type": "transcription.completed", "item_id": "item_1", "transcript": "um so can we move the review"}
+  ],
+  "on_close": [
+    {"type": "transcription.completed", "item_id": "item_2", "transcript": "to thursday no friday",
+     "outputs": {"text_polishing": {"text": "Can we move the review to Friday?"}}},
+    {"type": "session.closed", "reason": "client_closed"}
+  ]
+}

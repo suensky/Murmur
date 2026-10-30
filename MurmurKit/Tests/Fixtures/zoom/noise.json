@@ -1,0 +1,11 @@
+{
+  "on_connect": [{"type": "session.created", "session_id": "sess_3"}],
+  "on_audio": [
+    {"type": "input_audio_buffer.speech_started", "item_id": "item_1", "audio_start_ms": 0},
+    {"type": "something.new", "payload": [1, 2, 3]},
+    {"type": "error", "error": {"code": "slow_consumer", "message": "warning", "fatal": false}},
+    {"type": "transcription.completed", "item_id": "item_1"},
+    {"type": "transcription.completed", "item_id": "item_1", "transcript": "Still here."}
+  ],
+  "on_close": [{"type": "session.closed", "reason": "client_closed"}]
+}
